@@ -17,9 +17,8 @@ class Home extends CI_Controller {
         
         $this->load->view('template/template_header/template_header_main', $data);
         if ($user_id){
-            //ada user
+            //ada user    
             $data['user_data'] = $this->User_model->user_data($user_id);
-            $data['products'] = $this->Product_model->get_all_product()->result_array();
             $data['notif'] = $this->Notification_model->get_notif($data['user_data']['user_id']);
             $data['notif_count'] = $this->Notification_model->notif_count($data['user_data']['user_id']);
             $data['user_name'] = $data['user_data']['user_username'];
