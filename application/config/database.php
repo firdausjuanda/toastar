@@ -77,16 +77,16 @@ $db['default'] = array(
 	'dsn'	=> '',
 	/* Production database config*/
 
-	// 'hostname' => 'ftp.firdgroup.com',
-	// 'username' => 'firdgrou_fird',
-	// 'password' => 'Juanda12325800*',
-	// 'database' => 'firdgrou_db_toastar',
+	'hostname' => 'ftp.firdgroup.com',
+	'username' => 'firdgrou_fird',
+	'password' => 'Juanda12325800*',
+	'database' => 'firdgrou_db_toastar',
 
 	/* Debug database config */
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'db_toastar',
+	// 'hostname' => 'localhost',
+	// 'username' => 'root',
+	// 'password' => '',
+	// 'database' => 'db_toastar',
 
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
