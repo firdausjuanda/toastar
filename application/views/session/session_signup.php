@@ -8,7 +8,8 @@
                 .toastar-image {
                   background: url("<?php echo base_url().'assets/img/logo/logo_primary_0.png'?>");
                   background-position: center;
-                  background-size: cover;
+                  background-size: 450px;
+                  background-repeat: no-repeat;
                 }
             </style>
           <div class="col-lg-5 d-none d-lg-block toastar-image"></div>
