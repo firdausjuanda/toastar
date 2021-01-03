@@ -1,0 +1,82 @@
+    .jumbotron0{
+    	background-position: center;
+    	background-size: cover;
+    	height: 500px;
+    	margin-bottom:10px;
+    }
+    .jumbotron1{
+        background-image:url("img/product/vanilla_toast.png");
+    	background-position: center;
+    	background-size: cover;
+    	height: 640px;
+    	margin-bottom:10px;
+    }
+    .jumbotron2{
+        background-image:url("img/product/toast.png");
+    	background-position: center;
+    	background-size: cover;
+    	height: 640px;
+    	margin-bottom:10px;
+    }
+    .jumbotron3{
+        background-image:url("img/product/gelato.jpg");
+    	background-position: center;
+    	background-size: cover;
+    	height: 500px;
+    	margin-bottom:10px;
+    }
+    .jumbotron4{
+        background-image:url("img/product/strawberry_gelato.png");
+    	background-position: center;
+    	background-size: cover;
+    	height: 640px;
+    	margin-bottom:10px;
+    }
+    .jumbotron5{
+        background-image:url("img/product/gelato.jpg");
+    	background-position: center;
+    	background-size: cover;
+    	height: 640px;
+    	margin-bottom:10px;
+    }
+    
+    div.centralizer {
+        height:100%;
+        position: relative 
+        
+    }
+    
+    div.centralizer .container {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) 
+        
+    }
+    div.centralizer a {
+        text-align:center;
+        /*margin: 0;*/
+        /*position: absolute;*/
+        /*top: 50%;*/
+        /*left: 50%;*/
+        margin-right: -50%;
+        color:white;
+        transform: translate(-50%, -50%) 
+        
+    }
+    .banner-info{
+        min-height:50px;
+        display:block;
+        background-color:#eee;
+        padding: 25px 10px 10px 10px;
+        vertical-align:middle; 
+    }
+    .container .j-title{
+        font-family:Arial;
+        font-size:50px;
+        color:white;
+        font-weight:bold;
+        text-align:center;
+    }
