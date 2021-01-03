@@ -1,22 +1,25 @@
 <br><br>
-<div class="mt-4" style="margin:10px">
+<div class="mt-4" style="margin:10px; min-height:77vh">
 <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0 text-gray-800">Profile</h1>
+        <h1 class="h3 mb-0 text-gray-800">Profile Page</h1>
     </div>
 <div class="row">
 <!--Main Profile-->
     <div class="col-md-3" style="background-color:">
-        <div class="card shadow mb-4">
+        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-left">
+          <h6 class="m-0 font-weight-bold text-primary text-center"><?= $user_data['user_username'];?> Profile</h6>
+        </div>
+        <div class="">
         <!-- Card Body -->
-        <div class="card-body">
+        <div class="">
           <?= $this->session->flashdata('message'); ?>
           <div style="width: wrap;">
             <table class='table table-unbordered'>
               <?php
               $user_id = $this->session->userdata('user_id');?>
-              <!--<tr>-->
-              <!--  <td style="text-align: center;"><img class="rounded-circle" style="width:200px;heigth:200px;" src="https://toastar.firdgroup.com/assets/img/logo/user_default.svg"></td>-->
-              <!--</tr>-->
+              <tr>
+               <td style="text-align: center;"><img class="rounded-circle" style="width:200px;heigth:200px;" src="https://toastar.firdgroup.com/assets/img/logo/user_default.svg"></td>
+              </tr>
               
             </table>
             <table class="table" >
@@ -39,7 +42,7 @@
               <tr>
                 <td>Storename</td>
                 <td style="text-align: right;">
-                    <input id="user_storename" name="user_storename" class="form-control" type="text" onChange="change()" id="noSpace" onkeyup='lettersOnly(this)' value="<?= $storename;?>">
+                    <input readonly id="user_storename" name="user_storename" class="form-control" type="text" onChange="change()" id="noSpace" onkeyup='lettersOnly(this)' value="<?= $storename;?>">
                 </td>
               </tr>
               </form>
@@ -80,7 +83,7 @@
 
 <!--Detail Profile-->
     <div class="col-md-6" style="background-color:">
-      <div class="card shadow mb-4">
+      <div class="mb-4">
         <!-- Card Header - Dropdown -->
         <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
           <h6 class="m-0 font-weight-bold text-primary text-center">Activities</h6>
