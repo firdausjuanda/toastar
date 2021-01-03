@@ -75,10 +75,19 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'ftp.firdgroup.com',
-	'username' => 'firdgrou_fird',
-	'password' => 'Juanda12325800*',
-	'database' => 'firdgrou_db_toastar',
+	/* Production database config*/
+
+	// 'hostname' => 'ftp.firdgroup.com',
+	// 'username' => 'firdgrou_fird',
+	// 'password' => 'Juanda12325800*',
+	// 'database' => 'firdgrou_db_toastar',
+
+	/* Debug database config */
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
+	'database' => 'db_toastar',
+
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
@@ -94,3 +103,4 @@ $db['default'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
+

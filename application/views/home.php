@@ -10,7 +10,7 @@ if($this->session->userdata('user_id')==0){
 <div href="#" class='jumbotron1'>
     <div class="centralizer">
         <div class="container">
-            <p class="j-title">Hot Packages</p>
+            <p class="j-title">Makanan</p>
             <a href="#"><h4>Lihat paket ></h4></a>
         </div>
     </div>
