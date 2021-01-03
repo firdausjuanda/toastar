@@ -11,7 +11,7 @@ if($this->session->userdata('user_id')==0){
     <div class="centralizer">
         <div class="container">
             <p class="j-title">Paket Terlaris</p>
-            <a href="#"><h4>Lihat paket ></h4></a>
+            <a href="<?= base_url().'menu';?>" ><h4>Lihat paket ></h4></a>
         </div>
     </div>
 </div>

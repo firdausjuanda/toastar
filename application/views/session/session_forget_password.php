@@ -5,8 +5,8 @@
 
       <div class="col-md-6">
 
-        <div class="card o-hidden border-0 shadow-lg my-5">
-          <div class="card-body p-0">
+        <div class="my-5">
+          <div class="p-0">
             <!-- Nested Row within Card Body -->
             <div class="row">
               <div class="col-lg-12">
@@ -17,9 +17,9 @@
                   </div>
                   <form class="user">
                     <div class="form-group">
-                      <input type="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address...">
+                      <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address...">
                     </div>
-                    <a href="login.html" class="btn btn-primary btn-user btn-block">
+                    <a href="login.html" class="btn btn-primary btn-block">
                       Reset Password
                     </a>
                   </form>

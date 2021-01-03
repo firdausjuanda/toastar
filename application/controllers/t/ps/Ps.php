@@ -42,7 +42,7 @@ class Ps extends CI_Controller {
 		$data['menu_inc'] = 'ui/navbar_menu/menu_inc';
 		$data['content'] = 'team/team_pos/team_pos';
 		$data['get_disc'] = $this->Discount_model->get_disc();
-		$data['all_product'] = $this->Product_model->get_all_product();
+		$data['all_product'] = $this->Product_model->get_my_product($user_id);
 		$data['get_cart'] = $this->Transaction_model->get_cart($user_id);
 		$data['get_total'] = $this->Transaction_model->get_total($user_id);
 		$data['get_sales'] = $this->Transaction_model->get_sales($user_id);

@@ -4,10 +4,9 @@ class User_model extends CI_Model{
       $this->db->select('*');
       $this->db->from('table_user');
       $this->db->where('user_username',$user_username);
+      $this->db->join('table_store','table_store.store_id=table_user.user_store_id', 'left');
       $query = $this->db->get();
-      return $query->row_array();    
-        // $this->db->query("SELECT user_id, user_username, user_password, user_role from table_user where user_username='$user_username'");
-        // return $result;
+      return $query->row_array();
     }
   function user_data($user_id){
       $this->db->select('*');
@@ -20,12 +19,14 @@ class User_model extends CI_Model{
       $this->db->select('*');
       $this->db->from('table_user');
       $this->db->where('user_username',$username);
+      $this->db->join('table_store','table_store.store_id=table_user.user_store_id', 'left');
       $query = $this->db->get();
       return $query->result_array();
   }
   function all_user(){
       $this->db->select('*');
       $this->db->from('table_user');
+      $this->db->join('table_store','table_store.store_id=table_user.user_store_id', 'left');
       $query = $this->db->get();
       return $query->result_array();
   }

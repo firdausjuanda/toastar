@@ -1,5 +1,8 @@
 <br><br>
-<div style="margin: 10px">
+<div class="mt-4" style="margin:10px">
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">Profile</h1>
+    </div>
 <div class="row">
 <!--Main Profile-->
     <div class="col-md-3" style="background-color:">
@@ -22,6 +25,7 @@
               foreach($user_data_by_username as $d):
                 $username = $d['user_username'];
                 $firstname = $d['user_firstname'];
+                $storename = $d['store_name'];
                 $lastname = $d['user_lastname'];
                 $phone = $d['user_phone'];
                 $id = $d['user_id'];
@@ -30,6 +34,12 @@
                 <td>Username</td>
                 <td style="text-align: right;">
                     <input id="user_username" name="user_username" class="form-control" type="text" onChange="change()" id="noSpace" onkeyup='lettersOnly(this)' value="<?= $username;?>">
+                </td>
+              </tr>
+              <tr>
+                <td>Storename</td>
+                <td style="text-align: right;">
+                    <input id="user_storename" name="user_storename" class="form-control" type="text" onChange="change()" id="noSpace" onkeyup='lettersOnly(this)' value="<?= $storename;?>">
                 </td>
               </tr>
               </form>

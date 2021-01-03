@@ -29,11 +29,6 @@ $config['base_url'] = 'https://toastar.firdgroup.com';
 /* Debug url */
 // $config['base_url'] = 'http://localhost/toastar';
 
-// RewriteEngine On
-// RewriteCond %{REQUEST_FILENAME} !-f
-// RewriteCond %{REQUEST_FILENAME} !-d
-// RewriteRule ^(.*)$ index.php/$1 [L]
-
 /*
 |--------------------------------------------------------------------------
 | Index File

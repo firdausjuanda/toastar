@@ -68,13 +68,13 @@ class Si extends CI_Controller {
 						$this->session->set_userdata($data);
 						
 						if ($user['user_role']==1) {
-							redirect('t/db');
+							redirect('u/us');
 						} elseif ($user['user_role']==2) {
-							redirect('t/db');
+							redirect('u/us');
 						} elseif ($user['user_role']==3) {
-							redirect('t/db');
+							redirect('us/us');
 						} elseif ($user['user_role']==4) {
-							redirect('t/db');
+							redirect('u/us');
 						} else {
 							redirect('u/us');
 						}

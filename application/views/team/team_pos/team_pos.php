@@ -1,6 +1,6 @@
 <br><br>
         <!-- Begin Page Content -->
-        <div style="margin:10px">
+        <div class="mt-4" style="margin:10px">
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
@@ -143,7 +143,7 @@
               <div class="row">
                 
                 <?php
-                foreach ($all_product->result_array() as $p):
+                foreach ($all_product as $p):
                   $product_id = $p['product_id'];
                   $product_category = $p['product_category'];
                   $product_name = $p['product_name'];
@@ -151,8 +151,20 @@
                   $product_img = $p['product_img'];
                 
                 ?>
-                  <div class="col-sm-6 col-md-4 mb-4" style="min-height:100px;">
-                    <a href="<?= base_url().'t/ps/ts/add/'.$product_id;?>">
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                <a style="color:black" href="<?= base_url().'t/ps/ts/add/'.$product_id;?>">
+                  <div class="card mb-3">
+                      <img src="<?= base_url().'assets/img/product/'.$product_img;?>" class="card-img-top">
+                      <div class="card-body ">
+                          <h5 class="card-title"><strong><?= $product_name; ?></strong></h5>
+                          <h6 class="card-title">Rp. <?= number_format($product_price); ?></h6>
+                          <a href="<?= base_url().'t/ps/ts/add/'.$product_id;;?>" class="btn btn-primary btn-block">Tambahkan</a>
+                      </div>
+                  </div>
+                  </a>
+                </div>
+                  <!-- <div class="col-sm-6 col-md-4 mb-4" style="min-height:100px;"> -->
+                    <!-- <a href="<?= base_url().'t/ps/ts/add/'.$product_id;?>">
                     <div class="card text-white shadow text-center bg-default" style=" border:none; min-height:300px">
                       <div class="card-body" >
                         <div class="">
@@ -164,7 +176,7 @@
                       </div>
                     </div>
                     </a>
-                  </div>
+                  </div> -->
                 <?php endforeach; ?>
                 
               </div>
