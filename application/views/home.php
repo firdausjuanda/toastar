@@ -10,7 +10,7 @@ if($this->session->userdata('user_id')==0){
 <div href="#" class='jumbotron1'>
     <div class="centralizer">
         <div class="container">
-            <p class="j-title">Makanan</p>
+            <p class="j-title">Paket Terlaris</p>
             <a href="#"><h4>Lihat paket ></h4></a>
         </div>
     </div>
@@ -18,7 +18,7 @@ if($this->session->userdata('user_id')==0){
 <div class='jumbotron2'>
     <div class="centralizer">
         <div class="container">
-            <p class="j-title">Toast Family</p>
+            <p class="j-title">Sarapan</p>
         <a href="#"><h4>Lihat menu ></h4></a>
         </div>
     </div>
@@ -26,7 +26,7 @@ if($this->session->userdata('user_id')==0){
 <div class='jumbotron3'>
     <div class="centralizer">
         <div class="container">
-            <p class="j-title">Gelato Squad</p>
+            <p class="j-title">Makan siang</p>
         <a href="#"><h4>Lihat menu ></h4></a>
         </div>
     </div>
@@ -36,7 +36,7 @@ if($this->session->userdata('user_id')==0){
         <div class='jumbotron4'>
             <div class="centralizer">
                 <div class="container">
-                <p class="j-title">Burger</p>
+                <p class="j-title">Gorengan</p>
                 <a href="#"><h4>Lihat menu ></h4></a>
                 </div>
             </div>
@@ -46,7 +46,7 @@ if($this->session->userdata('user_id')==0){
         <div class='jumbotron5'>
             <div class="centralizer">
                 <div class="container">
-                <p class="j-title">Cakes</p>
+                <p class="j-title">Makanan ringan</p>
                 <a href="#"><h4>Lihat menu ></h4></a>
                 </div>
             </div>
@@ -59,7 +59,7 @@ if($this->session->userdata('user_id')==0){
         <div class='jumbotron5'>
             <div class="centralizer">
                 <div class="container">
-                <p class="j-title">Pudding</p>
+                <p class="j-title">Minuman</p>
                 <a href="#"><h4>Lihat menu ></h4></a>
                 </div>
             </div>
@@ -69,7 +69,7 @@ if($this->session->userdata('user_id')==0){
         <div class='jumbotron4'>
             <div class="centralizer">
                 <div class="container">
-                 <p class="j-title">Hungriness</p>
+                 <p class="j-title">Makanan tradisional</p>
                 <a href="#"><h4>Lihat menu ></h4></a>
                 </div>
             </div>
@@ -81,7 +81,7 @@ if($this->session->userdata('user_id')==0){
         <div class='jumbotron4'>
             <div class="centralizer">
                 <div class="container">
-                <p class="j-title">Traditionals</p>
+                <p class="j-title">Herbal</p>
                 <a href="#"><h4>Lihat menu ></h4></a>
                 </div>
             </div>
@@ -91,7 +91,7 @@ if($this->session->userdata('user_id')==0){
         <div class='jumbotron5'>
             <div class="centralizer">
                 <div class="container">     
-                <p class="j-title">Bavarages</p>
+                <p class="j-title">Bahan baku</p>
                 <a href="#"><h4>Lihat menu ></h4></a>
                 </div>
             </div>
