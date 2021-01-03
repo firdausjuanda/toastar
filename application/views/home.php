@@ -101,6 +101,3 @@ if($this->session->userdata('user_id')==0){
 <?php
 $this->load->view('ui/utils/gmaps');
 ?>
-<?php
-$this->load->view('ui/utils/gmaps');
-?>
