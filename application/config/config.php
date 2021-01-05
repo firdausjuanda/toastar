@@ -24,10 +24,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 /* Production url */
-$config['base_url'] = 'https://toastar.firdgroup.com';
+// $config['base_url'] = 'https://toastar.firdgroup.com';
 
 /* Debug url */
-// $config['base_url'] = 'http://localhost/toastar';
+$config['base_url'] = 'http://localhost/toastar';
 
 /*
 |--------------------------------------------------------------------------
