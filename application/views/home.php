@@ -27,7 +27,7 @@ if($this->session->userdata('user_id')==0){
                 'params' : {}
             };
             document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.highperformancedisplaycontent.com/3f24e11ffe3a5684a5c67b009dce6ed7/invoke.js"></scr' + 'ipt>');
-        </script>
+        </script> 
         </div>
     </div>
 </div>
