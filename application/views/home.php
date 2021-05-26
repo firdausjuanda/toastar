@@ -15,6 +15,22 @@ if($this->session->userdata('user_id')==0){
         </div>
     </div>
 </div>
+<div href="#" class='jumbotron1'>
+    <div class="centralizer">
+        <div class="container">
+        <script type="text/javascript">
+            atOptions = {
+                'key' : '3f24e11ffe3a5684a5c67b009dce6ed7',
+                'format' : 'iframe',
+                'height' : 60,
+                'width' : 468,
+                'params' : {}
+            };
+            document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.highperformancedisplaycontent.com/3f24e11ffe3a5684a5c67b009dce6ed7/invoke.js"></scr' + 'ipt>');
+        </script>
+        </div>
+    </div>
+</div>
 <div class='jumbotron2'>
     <div class="centralizer">
         <div class="container">
