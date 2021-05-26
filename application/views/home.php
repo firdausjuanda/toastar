@@ -15,7 +15,7 @@ if($this->session->userdata('user_id')==0){
         </div>
     </div>
 </div>
-<div href="#" class='jumbotron1'>
+<div href="#" class='jumbotronForAds'>
     <div class="centralizer">
         <div class="container">
         <script type="text/javascript">

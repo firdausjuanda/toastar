@@ -11,6 +11,11 @@
     	height: 640px;
     	margin-bottom:10px;
     }
+    .jumbotronForAds{
+    	background-position: center;
+    	background-size: cover;
+    	margin-bottom:10px;
+    }
     .jumbotron2{
         background-image:url("img/product/toast.png");
     	background-position: center;
